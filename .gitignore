@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Generated reports and plots
+MESA_VALIDATION_REPORT.txt
+MESA_VALIDATION_REPORT.html
+mesa_statistics.json
+mesa_validation_results.json
+*.png
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
