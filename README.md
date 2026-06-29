@@ -74,6 +74,17 @@ plotter = PlotGenerator(geometry, stats)
 plotter.generate_all_plots('.')
 ```
 
+## Running the Tests
+
+The project ships with a `pytest` suite covering geometry totals, every MESA
+validation check (pass / warn / fail and zero-guard edge cases), the statistics
+calculator, report rendering, and plot generation.
+
+```bash
+pip install pytest
+python -m pytest -q
+```
+
 ## Running the Example
 
 ```bash
