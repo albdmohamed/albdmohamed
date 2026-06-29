@@ -1,2 +1,5 @@
 numpy>=1.21.0
 matplotlib>=3.4.0
+
+# Test dependencies
+pytest>=7.0.0
